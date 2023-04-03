@@ -43,6 +43,13 @@ class LoginPage {
                 expect($small.get(1).textContent).to.equal(passwordMessage)
             })
     }
+
+    goSignup(){
+        cy.contains('a', 'Criar conta').click()
+        cy.get('form h1')
+            .should('be.visible')
+            .should('have.text', 'Faça seu cadastro')
+    }
 }
 
 export default new LoginPage()

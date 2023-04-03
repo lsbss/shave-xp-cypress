@@ -1,0 +1,28 @@
+{
+    "success": {
+        "name": "Leonardo Santos",
+        "email": "leo_tester@email.com",
+        "password": "abcd@1234",
+        "is_shaver": false
+    },
+    "invpass": {
+        "email": "leonardo@teste.com.br",
+        "password": "5abcd1234"
+    },
+    "email404": {
+        "email": "leonardo@404.com.br",
+        "password": "123456"
+    },
+    "shortpass": [
+        "1",
+        "abc",
+        "123as"
+    ],
+    "invemails": [
+        "leo&teste.com",
+        "leo.com.br",
+        "@leo.com.br",
+        "123144"
+    ]
+
+}
